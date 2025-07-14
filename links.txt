@@ -1,1 +1,11 @@
+Python YouTube Playist
 https://www.youtube.com/watch?v=FRzSFRvIrd0&list=PLwQBj0EKXGBuonWdCT5Tle_c3_Yiv790q
+
+micro:bit coding
+https://makecode.microbit.org
+
+Makecode Arcade
+https://arcade.makecode.com/
+
+Hummingbird Bit
+https://learn.birdbraintechnologies.com/hummingbirdbit/build/
