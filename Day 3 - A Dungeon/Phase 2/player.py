@@ -28,3 +28,7 @@ class Player:
             self.y = new_y
             self.x = new_x
             dungeon.interact_tile(self)
+
+    def take_damage(self, amount):
+        self.health -= amount
+        print(f"💥 You took {amount} damage! Health now {self.health}")

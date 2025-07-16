@@ -15,7 +15,6 @@ def main():
         dungeon.display(player, view_height=9, view_width=17)
         print(f"Health: {player.health} | Keys: {player.inventory.count('key')} | Gold: {player.gold}")
 
-
         if (player.y, player.x) == dungeon.goal_pos:
             print("🎉 You reached the goal!")
             if not dungeon.next_level():
@@ -30,6 +29,7 @@ def main():
             break
 
         player.move(command, dungeon)
+        dungeon.move_enemies(player)
 
 if __name__ == "__main__":
     main()
