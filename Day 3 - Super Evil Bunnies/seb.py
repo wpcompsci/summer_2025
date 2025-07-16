@@ -154,7 +154,7 @@ def evil_bunnies():
 
 
 def end():
-    time.sleep(1)
+    time.sleep(5)
     clear_screen()
     print("You are at the end of the game.")
     print("Thank you for playing.")

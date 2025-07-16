@@ -35,22 +35,6 @@ class Dungeon:
                     return (y, x)
         return (1, 1)  # fallback if not found
 
-    def load_level1(self):
-        raw_map = [
-            "########################################",
-            "#     #    k####    #  G  #     D#  H ##",
-            "# ### #  ####     #   #  #  ### #     #",
-            "#   #     #        #####  #     #     #",
-            "# # #####     ######      #######  ###",
-            "# #      ####            #         #X#",
-            "# ####      ####   #######  ####  #  #",
-            "#     #########     #     #      #   #",
-            "###              ##########    #######",
-            "#    #    #     #      #   ##     #  #",
-            "########################################",
-        ]
-        return self.pad_map(raw_map)
-
     def can_enter(self, tile, player):
         if tile == '#':
             return False
@@ -153,7 +137,7 @@ class Dungeon:
             print("🎉 You completed all levels!")
             return False
         self.map = self.levels[self.current_level_index]
-        self.goal_pos = self.place_goal()
+        self.goal_pos = self.find_tile('X')
         return True
 
 

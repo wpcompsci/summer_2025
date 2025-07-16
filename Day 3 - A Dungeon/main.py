@@ -21,6 +21,10 @@ def main():
                 break
             player.y, player.x = 1, 1
             input("Press Enter to start next level...")
+            clear_screen()
+            dungeon.display(player, view_height=9, view_width=17)
+            print(f"Health: {player.health} | Keys: {player.inventory.count('key')} | Gold: {player.gold}")
+            input("Press Enter to continue...")
 
         print("Move with W/A/S/D, Q to quit")
         command = get_key()
