@@ -9,3 +9,25 @@ https://arcade.makecode.com/
 
 Hummingbird Bit
 https://learn.birdbraintechnologies.com/hummingbirdbit/build/
+
+
+✅ W3Schools – Python Tutorial
+https://www.w3schools.com/python/
+Interactive beginner-friendly tutorials
+
+▶️ Tech With Tim – YouTube Channel
+https://www.youtube.com/c/TechWithTim
+Python projects, games, and beginner-friendly tutorials
+Covers game dev with Pygame, AI, and more
+
+🐍 Invent with Python – Free Books & Projects
+https://inventwithpython.com/
+
+Free online books for beginner to intermediate coders
+Game development, automation, and fun Python projects
+
+Recommended books from the site:
+Automate the Boring Stuff with Python – https://automatetheboringstuff.com/
+Invent Your Own Computer Games with Python – https://inventwithpython.com/invent4th/
+Making Games with Python & Pygame – https://inventwithpython.com/pygame/
+
